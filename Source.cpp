@@ -18,8 +18,14 @@ int main()
 	cin>>a;
 	cout<<"Nap b: ";
 	cin>>b;
+	
+	cout <<"Cong ngu";
+	
 	cout<<"Tich la: "<<tich(a,b)<<endl;
 	cout<<"Thuong la: "<<thuong(a,b)<<endl;
+
+
+
 	system("pause");
 	return 0;
 }
