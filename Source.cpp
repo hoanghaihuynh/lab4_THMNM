@@ -19,7 +19,7 @@ int main()
 	cout<<"Nap b: ";
 	cin>>b;
 	
-	cout <<"Cong ngu";
+
 	
 	cout<<"Tich la: "<<tich(a,b)<<endl;
 	cout<<"Thuong la: "<<thuong(a,b)<<endl;
