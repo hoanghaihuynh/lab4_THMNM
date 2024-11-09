@@ -14,12 +14,12 @@ float thuong(int a, int b);
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
-	cout << "Tong: " << tong(2,3);
 	int a,b;
 	cout<<"Nhap a:";
 	cin>>a;
 	cout<<"Nhap b:";
 	cin>>b;
+	cout<<"tong la: "<<tong(a,b)<<endl;
 	cout<<"hieu la: "<<hieu(a,b)<<endl;
 	system("pause");
 	return 0;
