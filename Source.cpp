@@ -28,6 +28,9 @@ int main()
 	cin>>a;
 	cout<<"Nhap b: ";
 	cin>>b;
+	
+
+	
 	cout<<"Tich la: "<<tich(a,b)<<endl;
 	cout<<"Thuong la: "<<thuong(a,b)<<endl;
 
