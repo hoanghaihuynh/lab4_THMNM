@@ -9,6 +9,16 @@ int tich(int a, int b){
 float thuong(int a, int b){
 	return float(a)/b;
 }
+bool ktsht(int c){
+	int s = 0;
+	for(int i = 1; i < c; i++){
+		if( c % i == 0){
+			s += i;
+		}
+	}
+	if(s == c) return true;
+	return false;
+}
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
@@ -16,10 +26,16 @@ int main()
 	int b;
 	cout<<"Nhap a: ";
 	cin>>a;
-	cout<<"Nap b: ";
+	cout<<"Nhap b: ";
 	cin>>b;
 	cout<<"Tich la: "<<tich(a,b)<<endl;
 	cout<<"Thuong la: "<<thuong(a,b)<<endl;
+
+	int c;
+	cout<<"Nhap c: ";
+	cin>>c;
+	if(ktsht(c)== true) cout<<c<<" la so hoan thien"<<endl;
+	else cout<<c" khong la so hoan thien"<<endl;
 	system("pause");
 	return 0;
 }
