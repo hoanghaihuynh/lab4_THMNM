@@ -15,7 +15,7 @@ int main()
 	cin>>a;
 	cout<<"Nhap b:";
 	cin>>b;
-	cout<<"hieu la:<<hieu(a,b)<<endl;
+	cout<<"hieu la":<<hieu(a,b)<<endl;
 	system("pause");
 	return 0;
 }
