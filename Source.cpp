@@ -35,7 +35,7 @@ int main()
 	cout<<"Nhap c: ";
 	cin>>c;
 	if(ktsht(c)== true) cout<<c<<" la so hoan thien"<<endl;
-	else cout<<c" khong la so hoan thien"<<endl;
+	else cout<<c<<" khong la so hoan thien"<<endl;
 	system("pause");
 	return 0;
 }
